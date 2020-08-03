@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #DDA0DD;
+  background-color: #4B0082;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -35,7 +35,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #DDA0DD; /*background color to plum*/
+  background: #4B0082; /*background color to plum*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -229,7 +229,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #DDA0DD;
+  background: #4B0082;
   text-align: center;
 }
 
@@ -263,7 +263,7 @@ h4 {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #DDA0DD;
+  color: #4B0082;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: .5s ease all;
