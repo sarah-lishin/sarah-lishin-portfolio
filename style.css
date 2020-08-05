@@ -80,6 +80,12 @@ body {
   padding: 20px;
 }
 
+.socialcontact {
+  font-size: 2em;
+  color: grey;
+  padding: 20px;
+}
+
 /*ARROW LINK*/
 #down-arrow {
   /*position: absolute;
