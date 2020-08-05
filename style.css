@@ -246,7 +246,7 @@ h4 {
   border: none;
   margin-bottom: 10px;
   background: #E6E6FA;
-  color: #696969;
+  color: #E6E6FA;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
 }
@@ -263,7 +263,7 @@ h4 {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #696969;
+  color: #E6E6FA;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: .5s ease all;
