@@ -239,16 +239,6 @@ h4 {
   padding-left: 0;
 }
 
-.li-certs {
-  display: inline-block;
-  margin: 7px;
-  padding: 5px 10px;
-  color: white;
-  background: #808080;
-  list-style: none;
-  cursor: default;
-  font-size: 1.2em;
-}
 
 /*CONTACT*/
 .blue {
