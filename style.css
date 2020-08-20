@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: rgba(242, 242, 242, .6);
+  background-image: url("https://github.com/sarah-lishin/sarah-lishin-portfolio/raw/master/wallpaper_gradient-black-purple-linear-3840x2160-c2-000000-9400d3-a-90-f-14.jpg");
   margin: 0;
 }
 
@@ -10,7 +10,6 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #6a009b;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -35,7 +34,6 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background-image: url("https://github.com/sarah-lishin/sarah-lishin-portfolio/raw/master/wallpaper_gradient-black-purple-linear-3840x2160-c2-000000-9400d3-a-90-f-14.jpg"); /*background image added*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -108,10 +106,6 @@ body {
 
 .row {
   display: flex;
-}
-
-.white {
-  background: #3b0156;
 }
 
 .side-content {
@@ -243,7 +237,6 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #3b0156;
   text-align: center;
 }
 
