@@ -151,14 +151,13 @@ h2 {
 
 .content-body {
   line-height: 1.5;
-  color: #3b0156;
+  color: white;
 }
 
 /*EDUCATION*/
 .card {
   display: flex;
   flex-direction: column;
-  background-color: white;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   margin-bottom: 30px;
@@ -166,7 +165,6 @@ h2 {
 
 .card-header {
   padding: .75rem 1.25rem;
-  background-color: white;
   border-bottom: 1px solid rgba(0,0,0,.075);
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
@@ -180,7 +178,7 @@ h2 {
 h4 {
   margin: 0;
   font-weight: 400;
-  color: grey;
+  color: white;
 }
 
 .job-title {
@@ -191,8 +189,7 @@ h4 {
 .project-card {
   display: flex;
   flex-direction: row;
-  background-color: white;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(255,255,255,.125);
   border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
