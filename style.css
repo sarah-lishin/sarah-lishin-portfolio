@@ -4,6 +4,7 @@ body {
   
   /* Full height */
   height: 100%;
+  margin-top: 48px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -31,6 +32,11 @@ body {
   text-decoration: none;
 }
 
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 .anchor {
   display: block;
   position: relative;
@@ -42,7 +48,7 @@ body {
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
   margin-bottom: 0; /*no bottom margin*/
-
+  
   display: flex;
   flex-direction: column;
 }
