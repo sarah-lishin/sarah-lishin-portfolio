@@ -19,8 +19,8 @@ body {
 
 /*OVERLAY*/
 .overlay {
-  height: 100%;
-  width: 0;
+  height: 0;
+  width: 100%;
   position: fixed; 
   z-index: 1; 
   left: 0;
@@ -77,23 +77,27 @@ body {
   }
 }
 
-/*NAVBAR*/
-.navbar {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+/*NAV BUTTON*/
+
+.navbutton {
+  position: fixed; /* Set the navbutton to fixed position */
+  top: 0; /* Position the navbutton at the top of the page */
   width: 100%; /* Full width */
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  padding-right: 25px;
+  padding-top: 25px;
+  color: white;
 }
 
-.navbar a {
+.navbutton a {
   font-weight: 200;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbutton a:hover {
   background: #ddd;
   color: black;
 }
@@ -104,6 +108,7 @@ body {
   top: -70px;
   visibility: hidden;
 }
+
 
 /*JUMBOTRON*/
 .jumbotron {
@@ -120,7 +125,7 @@ body {
   font-size: 2em;
   color: white;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 90px;
 }
 
 .jumbotron-text h1 {
@@ -203,9 +208,9 @@ body {
 }
 
 .box-shadow {
-  -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
 }
 
 h2 {
@@ -216,9 +221,30 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .content-body {
   line-height: 1.5;
-  color: white;
+  color: #F5F5F5;
+}
+
+.content-about {
+  line-height: 1.5;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+.content-copyright {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 0.5;
+  color: gray;
 }
 
 /*EDUCATION*/
@@ -321,6 +347,38 @@ h4 {
 .white-text {
   color: DCDCDC;
 }
+
+
+/*NAVBAR*/
+/*
+COMMENTEDOUT
+.navbar {
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  display: flex;
+  justify-content: right;
+}
+
+.navbar a {
+  font-weight: 200;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+*/
 
 
 /*.contact input, .contact textarea {
