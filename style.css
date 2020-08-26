@@ -311,18 +311,40 @@ h4 {
 .ul-skills {
   text-align: center;
   padding-left: 0;
+  /*-webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
 }
 
 .li-skills {
   display: inline-block;
-  margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #808080;
   list-style: none;
   cursor: default;
-  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
 }
+
+/i {
+  display: inline-block;
+  margin-right: 1em;
+} 
+
+.skillbutton {
+  color: white;
+  padding: 6px;
+  padding-right: 15px;
+  line-height: 24px;
+  position: relative;
+  top: 5px;
+  bottom: 0px:
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+
 
 /*CERTS*/
 .ul-certs {
@@ -330,6 +352,12 @@ h4 {
   padding-left: 0;
   text-decoration: none;
 }
+
+.ul-certs:hover span {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  }
 
 
 /*CONTACT*/
