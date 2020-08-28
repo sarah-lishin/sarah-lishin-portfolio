@@ -216,9 +216,20 @@ body {
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #BA55D3;
-  text-transform: uppercase;
+  color: rgba(186, 85, 228, 1);
   text-align: center;
+}
+
+.mirror{
+  display: inline-block; 
+  font-weight: 200;
+  font-size: 2rem;
+  color: rgba(186, 85, 228, 1);
+  text-align: center;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 h3 {
