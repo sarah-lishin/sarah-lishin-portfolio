@@ -233,6 +233,10 @@ h2 {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+span.line {
+  display: inline-block;
+}
+
 h3 {
   font-weight: 200;
   font-size: 1.5rem;
