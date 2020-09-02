@@ -295,33 +295,72 @@ h4 {
 }
 
 /*PROJECTS*/
-.project-card {
-  display: flex;
-  flex-direction: row;
+.flip-card {
+  background-color: transparent;
+  width: 285px;
+  height: 185px;
   border: 1px solid rgba(255,255,255,.125);
   border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+  perspective: 1000px; 
 }
 
-.project-image {
-  flex: 0 0 auto;
-}
-
-.project-image img {
-  display: block;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.project-content {
-  flex: 1 1 auto;
-  padding: 1.25rem;
-
-  display: flex;
+.flip-container {
+  display: grid;
   justify-content: center;
-  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  gap: 15px;
 }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front, .flip-card-back-rakhat {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: black;
+  color: white;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back-rakhat {
+  background-image: url('assets/rakhatback.png');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
 
 /*SKILLS*/
 .ul-skills {
@@ -379,12 +418,6 @@ h4 {
   bottom: 0px:
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
-
-.ul-certs:hover span {
-  display: inline;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5rem;
-  }
 
 
 /*CONTACT*/
