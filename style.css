@@ -129,6 +129,13 @@ body {
   padding-top: 90px;
 }
 
+.jumbotron-text h6 {
+  /*YOUR NAME*/
+  font-weight: 400;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
 .jumbotron-text h1 {
   /*YOUR NAME*/
   text-transform: uppercase;
