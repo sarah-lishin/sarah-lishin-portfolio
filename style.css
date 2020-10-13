@@ -396,6 +396,14 @@ h4 {
   transform: rotateY(180deg);
 }
 
+.flip-card-back-evil {
+  background-image: url('assets/evil_8_back.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: rotateY(180deg);
+}
+
 
 
 /*SKILLS*/
